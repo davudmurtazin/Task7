@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <menuList 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	    xmlns="http://www.example.org/menu"
+	    xmlns="http://www.example.org/menuList"
 		xsi:schemaLocation="http://www.example.org/menu-schema menuSchema.xsd">
 	<dishSelection type="coldSnacks">
 		<dish>
@@ -12,9 +12,9 @@
 					<discription>Слабосоленная форель, семга</discription>
 				</discriptionSelection>
 				<portions>
-					<portion>100<portion>
-					<portion>20<portion>
-					<portion>15<portion>
+					<portion>100</portion>
+					<portion>20</portion>
+					<portion>15</portion>>
 				</portions>
 				<pricesSelection>
 					<price></price>
@@ -29,8 +29,8 @@
 					<discription>Тарталетки с красной икрой</discription>
 				</discriptionSelection>
 				<portions>
-					<portion>60<portion>
-					<portion>50<portion>
+					<portion>60</portion>
+					<portion>50</portion>
 				</portions>
 				<pricesSelection>
 					<price></price>
@@ -45,17 +45,17 @@
 					<discription>Кусочки атлантической сельди с отварным картофелем, леком, лимоном и зеленью</discription>
 				</discriptionSelection>
 				<portions>
-					<portion>70<portion>
-					<portion>50<portion>
-					<portion>2<portion>
-					<portion>10<portion>
+					<portion>70</portion>
+					<portion>50</portion>
+					<portion>2</portion>
+					<portion>10</portion>
 				</portions>
 				<pricesSelection>
 					<price></price>
 				</pricesSelection>
 			</specification>
 		</dish>	
-	</dishes>
+	</dishSelection>
 	<dishSelection type="hotSnacks">
 		<dish>
 			<photo>\menu\mashrooms.png</photo>
@@ -65,8 +65,8 @@
 					<discription>Фасоль с шампиньонами и грецким орехом</discription>
 				</discriptionSelection>
 				<portions>
-					<portion>150<portion>
-					<portion>5<portion>
+					<portion>150</portion>
+					<portion>5</portion>
 				</portions>
 				<pricesSelection>
 					<price>105</price>
@@ -80,14 +80,14 @@
 				<discriptionSelection>
 					<discription>С курицей</discription>
 					<discription>С грибами</discription>
-				<discriptionSelection>
+				</discriptionSelection>
 				<portions>
-					<portion>120<portion>
-					<portion>1<portion>
+					<portion>120</portion>
+					<portion>1</portion>
 				</portions>
 				<prices>
-					<price>145<price>
-					<price>155<price>
+					<price>145</price>
+					<price>155</price>
 				</prices>
 			</specification>
 		</dish>	
@@ -99,14 +99,14 @@
 					<discription>Колбаса, ветчина, буженина, сыр, запеченные на мангале в лаваше</discription>
 				</discriptionSelection>
 				<portions>
-					<portion>1<portion>
+					<portion>1</portion>
 				</portions>
 				<pricesSelection>
 					<price>165</price>
 				</pricesSelection>
 			</specification>
 		</dish>	
-	</dishes>
+	</dishSelection>
 	<dishSelection type="breakfastMeal">
 		<dish>
 			<photo>\menu\eggs.png</photo>
@@ -116,7 +116,7 @@
 					<discription>2 яйца (на выбор: ветчина, сыр, помидоры)</discription>
 				</discriptionSelection>
 				<portions>
-					<portion>150<portion>
+					<portion>150</portion>
 				</portions>
 				<pricesSelection>
 					<price></price>
@@ -129,12 +129,12 @@
 			<specification>
 				<discriptionSelection>
 					<discription></discription>
-				<discriptionSelection>
+				</discriptionSelection>
 				<portions>
-					<portion>100<portion>
+					<portion>100</portion>
 				</portions>
 				<prices>
-					<price><price>
+					<price></price>
 				</prices>
 			</specification>
 		</dish>	
@@ -146,12 +146,12 @@
 					<discription>Жаренные блинчики с мясом</discription>
 				</discriptionSelection>
 				<portions>
-					<portion>150<portion>
+					<portion>150</portion>
 				</portions>
 				<pricesSelection>
 					<price></price>
 				</pricesSelection>
 			</specification>
 		</dish>	
-	</dishes>
+	</dishSelection>
 </menuList>
