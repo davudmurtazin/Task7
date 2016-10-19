@@ -1,156 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <menuList 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	    xmlns="http://www.example.org/menuList"
-		xsi:schemaLocation="http://www.example.org/menu-schema menuSchema.xsd">
-	<dishSelection type="coldSnacks">
+	    xmlns="http://www.davud.org/menuList"
+		xsi:schemaLocation="http://www.davud.org/menuList menuSchema.xsd">
+	<dishSelection dishType="coldSnacks">
 		<dish>
 			<photo>\menu\fish.png</photo>
 			<title>Ассорти рыбное</title>
 			<specification>
-				<discriptionSelection>
-					<discription>Слабосоленная форель, семга</discription>
-				</discriptionSelection>
-				<portions>
+				<descriptionSelection>
+					<description>Слабосоленная форель, семга</description>
+				</descriptionSelection>
+				<portionSelection>
 					<portion>100</portion>
 					<portion>20</portion>
 					<portion>15</portion>>
-				</portions>
-				<pricesSelection>
-					<price></price>
-				</pricesSelection>
+				</portionSelection>
+				<priceSelection>
+					<price/>
+				</priceSelection>
 			</specification>
 		</dish>	
 		<dish>
 			<photo>\menu\fish1.png</photo>
 			<title>Тарталетки с красной икрой</title>
 			<specification>
-				<discriptionSelection>
-					<discription>Тарталетки с красной икрой</discription>
-				</discriptionSelection>
-				<portions>
+				<descriptionSelection>
+					<description>Тарталетки с красной икрой</description>
+				</descriptionSelection>
+				<portionSelection>
 					<portion>60</portion>
 					<portion>50</portion>
-				</portions>
-				<pricesSelection>
-					<price></price>
-				</pricesSelection>
+				</portionSelection>
+				<priceSelection>
+					<price/>
+				</priceSelection>
 			</specification>
 		</dish>	
 		<dish>
 			<photo>\menu\snacks.png</photo>
 			<title>Закуски по-русски</title>
 			<specification>
-				<discriptionSelection>
-					<discription>Кусочки атлантической сельди с отварным картофелем, леком, лимоном и зеленью</discription>
-				</discriptionSelection>
-				<portions>
+				<descriptionSelection>
+					<description>Кусочки атлантической сельди с отварным картофелем, леком, лимоном и зеленью</description>
+				</descriptionSelection>
+				<portionSelection>
 					<portion>70</portion>
 					<portion>50</portion>
 					<portion>2</portion>
 					<portion>10</portion>
-				</portions>
-				<pricesSelection>
-					<price></price>
-				</pricesSelection>
+				</portionSelection>
+				<priceSelection>
+					<price/>
+				</priceSelection>
 			</specification>
 		</dish>	
 	</dishSelection>
-	<dishSelection type="hotSnacks">
+	<dishSelection dishType="hotSnacks">
 		<dish>
 			<photo>\menu\mashrooms.png</photo>
 			<title>Либио с шампиньонами</title>
 			<specification>
-				<discriptionSelection>
-					<discription>Фасоль с шампиньонами и грецким орехом</discription>
-				</discriptionSelection>
-				<portions>
+				<descriptionSelection>
+					<description>Фасоль с шампиньонами и грецким орехом</description>
+				</descriptionSelection>
+				<portionSelection>
 					<portion>150</portion>
 					<portion>5</portion>
-				</portions>
-				<pricesSelection>
+				</portionSelection>
+				<priceSelection>
 					<price>105</price>
-				</pricesSelection>
+				</priceSelection>
 			</specification>
 		</dish>	
 		<dish>
 			<photo>\menu\julienne.png</photo>
 			<title>Жульен</title>
 			<specification>
-				<discriptionSelection>
-					<discription>С курицей</discription>
-					<discription>С грибами</discription>
-				</discriptionSelection>
-				<portions>
+				<descriptionSelection>
+					<description>С курицей</description>
+					<description>С грибами</description>
+				</descriptionSelection>
+				<portionSelection>
 					<portion>120</portion>
 					<portion>1</portion>
-				</portions>
-				<prices>
+				</portionSelection>
+				<priceSelection>
 					<price>145</price>
 					<price>155</price>
-				</prices>
+				</priceSelection>
 			</specification>
 		</dish>	
 		<dish>
 			<photo>\menu\ahtamar.png</photo>
 			<title>Ахтамар мясной</title>
 			<specification>
-				<discriptionSelection>	
-					<discription>Колбаса, ветчина, буженина, сыр, запеченные на мангале в лаваше</discription>
-				</discriptionSelection>
-				<portions>
+				<descriptionSelection>
+					<description>Колбаса, ветчина, буженина, сыр, запеченные на мангале в лаваше</description>
+				</descriptionSelection>
+				<portionSelection>
 					<portion>1</portion>
-				</portions>
-				<pricesSelection>
+				</portionSelection>
+				<priceSelection>
 					<price>165</price>
-				</pricesSelection>
+				</priceSelection>
 			</specification>
 		</dish>	
 	</dishSelection>
-	<dishSelection type="breakfastMeal">
+	<dishSelection dishType="breakfastMeal">
 		<dish>
 			<photo>\menu\eggs.png</photo>
 			<title>Глазунья</title>
 			<specification>
-				<discriptionSelection>
-					<discription>2 яйца (на выбор: ветчина, сыр, помидоры)</discription>
-				</discriptionSelection>
-				<portions>
+				<descriptionSelection>
+					<description>2 яйца (на выбор: ветчина, сыр, помидоры)</description>
+				</descriptionSelection>
+				<portionSelection>
 					<portion>150</portion>
-				</portions>
-				<pricesSelection>
-					<price></price>
-				</pricesSelection>
+				</portionSelection>
+				<priceSelection>
+					<price/>
+				</priceSelection>
 			</specification>
 		</dish>	
 		<dish>
 			<photo>\menu\omelet.png</photo>
 			<title>Омлет</title>
 			<specification>
-				<discriptionSelection>
-					<discription></discription>
-				</discriptionSelection>
-				<portions>
+				<descriptionSelection>
+					<description> </description>
+				</descriptionSelection>
+				<portionSelection>
 					<portion>100</portion>
-				</portions>
-				<prices>
-					<price></price>
-				</prices>
+				</portionSelection>
+				<priceSelection>
+					<price> </price>
+				</priceSelection>
 			</specification>
 		</dish>	
 		<dish>
 			<photo>\menu\pancakes.png</photo>
 			<title>Блинчики с мясом</title>
 			<specification>
-				<discriptionSelection>	
-					<discription>Жаренные блинчики с мясом</discription>
-				</discriptionSelection>
-				<portions>
+				<descriptionSelection>
+					<description>Жаренные блинчики с мясом</description>
+				</descriptionSelection>
+				<portionSelection>
 					<portion>150</portion>
-				</portions>
-				<pricesSelection>
-					<price></price>
-				</pricesSelection>
+				</portionSelection>
+				<priceSelection>
+					<price> </price>
+				</priceSelection>
 			</specification>
 		</dish>	
 	</dishSelection>

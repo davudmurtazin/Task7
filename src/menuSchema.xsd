@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema 	xmlns="http://www.w3.org/2001/XMLSchema"
-		    targetNamespace="http://www.example.org/menuSchema"
-		    xmlns:tns="http://www.example.org/menuSchema"
+		    targetNamespace="http://www.davud.org/menuList"
+		    xmlns:tns="http://www.davud.org/menuList"
 		    elementFormDefault="qualified">
 	
 	<element name="menuList">
 		<complexType>
 			<sequence>
-				<element name="dishSelection" type="tns:dishType" minOccurs="1" maxOccurs="12" />
+				<element name="dishSelection" type="tns:DishSelection" minOccurs="1" maxOccurs="12" />
 			</sequence>
 		</complexType>
 	</element>
 
-	<complexType name="dishType">
+	<complexType name="DishSelection">
 		<sequence>
 			<element name="dish" type="tns:dish" minOccurs="0" maxOccurs="unbounded" />
 		</sequence>
-		<attribute name="dishTypeName" use="required">
+		<attribute name="dishType" use="required">
 			<simpleType>
 				<restriction base="string">
 					<enumeration value="coldSnacks"></enumeration>
@@ -45,28 +45,28 @@
 	</complexType>
 
 	<complexType name="specification">
-		<choice>
-			<element name="descriptionSelection" type="tns:descriptionSelection" />
-			<element name="portions" type="tns:portions"/>
+		<sequence>
+			<element name="descriptionSelection" type="tns:descriptionSelection"/>
+			<element name="portionSelection" type="tns:portionSelection"/>
 			<element name="priceSelection" type="tns:priceSelection"/>
-		</choice>
+		</sequence>
 	</complexType>
 	
 	<complexType name="descriptionSelection">
 		<sequence>
-			<element name="description" type="string" />
+			<element name="description" type="string"/>
 		</sequence>
 	</complexType>
 	
-	<complexType name="portions">
-		<choice>
-			<element name="portion" type="int" />
-		</choice>
+	<complexType name="portionSelection">
+		<sequence>
+			<element name="portion" type="int"/>
+		</sequence>
 	</complexType>
 	
 	<complexType name="priceSelection">
-		<choice>
-			<element name="price" type="int" />
-		</choice>
+		<sequence>
+			<element name="price" type="int"/>
+		</sequence>
 	</complexType>
 </schema>
